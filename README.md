@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning ... how to create circuits
 - 💞️ I’m looking to ... display project experience
 - 📫 How to reach me ... @tyler.salsa on Instagram
-- 😄 Pronouns: ...
 - ⚡ Fun fact: ... I've previously started 2 software startups with my largest expertise in user data collection
 
 <!---
