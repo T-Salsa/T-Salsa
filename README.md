@@ -1,11 +1,25 @@
-- 👋 Hi, I’m @T-Salsa
-- 👀 I’m interested in ... how things around me work
-- 🌱 I’m currently learning ... how to create circuits
-- 💞️ I’m looking to ... display project experience
-- 📫 How to reach me ... @tyler.salsa on Instagram
-- ⚡ Fun fact: ... I've previously started 2 software startups with my largest expertise in user data collection
+Android Snap [![Build Status](https://travis-ci.org/mhsjlw/AndroidSnap.svg)](https://travis-ci.org/mhsjlw/AndroidSnap)
+============
 
-<!---
-T-Salsa/T-Salsa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+SnapChat clone written in Android, based off of the Treehouse tutorial!
+
+## Usage / Running your own
+To run this application you need a [parse.com](https://parse.com/) account. Then you need to open `SnapApplication.java` and replace the `APPLICATION_ID` and `CLIENT_KEY` with your credentials.
+
+```java
+package me.mhsjlw.android_snap;
+
+import ...
+
+public class SnapApplication extends Application {
+	
+	@Override
+	public void onCreate() { 
+		super.onCreate();
+	    Parse.initialize(this, "APPLICATION_ID", "CLIENT_KEY");
+	}
+}
+```
+
+## License
+See the [LICENSE](https://github.com/mhsjlw/AndroidSnap/blob/master/LICENSE) file
